@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "KiTplayerSDK",
     platforms: [
-        .iOS(.v14)
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -20,8 +20,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "KiTplayerSDK",
-            url: "https://github.com/kitbetter-web/muzlive-kit-player-sdk-ios/releases/download/v1.0.62-beta1/KiTplayerSDK.xcframework.zip",
-            checksum: "ef3fb6067dc506a9a42a511ee4aeef7d71b73927b12d8cb9021a6f2dfb62e458"
+            url: "https://github.com/kitbetter-web/muzlive-kit-player-sdk-ios/releases/download/v1.0.62/KiTplayerSDK.xcframework.zip",
+            checksum: "aa83d583c002bd841d9cfe52e9cd9745095c6ae77a2490a956ff96f2e943882d"
         ),
         .binaryTarget(
             name: "GoogleCast",
